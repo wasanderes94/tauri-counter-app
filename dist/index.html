@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <h1>tauri-counter-app</h1>
+  </body>
+</html>
+
+
+ -->
+
+ <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri Counter App</title>
+  </head>
+  <body>
+    <script  type="module" src="index.js"></script>
+   <!--  <script>
+      // access the pre-bundled global API functions
+      const invoke = window.__TAURI__.invoke
+
+      // now we can call our Command!
+      // Right-click the application background and open the developer tools.
+      // You will see "Hello, World!" printed in the console!
+      invoke('greet', { name: 'World' })
+        // `invoke` returns a Promise
+        .then((response) => console.log(response))
+    </script> -->
+    <div class="box center">
+      <p>Counter</p>
+      <div id="counter"></div>
+    </div>
+    <div class="btns center">
+      <button id="dec-btn" type="button" class="btn btn-subtract">-</button>
+      <button id="inc-btn" type="button" class="btn btn-add">+</button>
+    </div>
+  </body>
+</html>

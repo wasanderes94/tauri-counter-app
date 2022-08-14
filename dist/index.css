@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background: #b3caff;
+  }
+  
+  .center{
+    margin: auto;
+    width: 20%;
+  }
+  
+  .box{
+    font-size: 75px;
+    font-weight: bold;
+    color: blue;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 5%;
+  }
+  
+  .button {
+    padding: 2px 15px;
+    color: #fff;
+    font-size: 28px;
+  }
+  
+  .btns{
+    margin-top: 30px;
+  }
+  
+  .btn-add{
+    background: green;
+    float: right;
+    border: 2px solid #346b3b;
+  }
+  .btn-subtract {
+    background: red;
+    float: left;
+    border: 2px solid #c34e4e;
+  }
+  
+  .btn{
+    padding: 2px 15px;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
